@@ -1,7 +1,7 @@
 django-WYMEditor
 ================
 
-This application will allow you to use [WYMEditor](http://http://www.wymeditor.org/) on your django TextFields.
+This application will allow you to use [WYMEditor](http://www.wymeditor.org/) on your django TextFields.
 
 Inspired by django-tinymce - https://github.com/aljosa/django-tinymce
 
