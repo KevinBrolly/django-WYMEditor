@@ -11,6 +11,7 @@ class WYMEditorWidget(forms.Textarea):
 
     def render(self, name, value, attrs=None):
         if value is None: value = ''
+        if attrs is None: attrs = {}
         attrs['class'] = attrs.get('class', '') + ' wymeditor'
         final_attrs = self.build_attrs(attrs, name=name)
         
